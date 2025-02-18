@@ -1,4 +1,4 @@
-int JumpSearch(int arr[], int n, int key){
+int jumpSearch(int arr[], int n, int key){
     int step = (int)sqrt(n);
     int prev = 0;
 
@@ -18,6 +18,6 @@ int JumpSearch(int arr[], int n, int key){
         {
             return i;
         }
-        return -1
     }
+    return -1;
 }
